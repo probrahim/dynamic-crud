@@ -1,0 +1,11 @@
+SERVER_PORT: 8080
+CONTEXT_PATH: /api
+
+spring.config.activate.on-profile: local
+
+############# DATABASE INFO ##################
+DATABASE_URL: localhost
+DATABASE_PASSWORD: root
+DATABASE_USERNAME: ''
+DATABASE_NAME: norminette
+DATABASE_PORT: 3306
